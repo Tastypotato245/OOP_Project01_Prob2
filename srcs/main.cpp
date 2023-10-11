@@ -188,7 +188,7 @@ void search(Database &db) {
         printf("|%-3d", i);
         printf("| %-15s", student.getName().c_str());
         printf("| %s ", student.getStudentID().c_str());
-        printf("| %-10s ", student.getBirthYear().c_str());
+        printf("| %-10s ", student.getDepartment().c_str());
         printf("| %5s ", student.getBirthYear().c_str());
         printf("| %15s |\n", student.getTel().c_str());
         i++;
