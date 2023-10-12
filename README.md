@@ -32,6 +32,10 @@ or
 
 ```$ ./a.exe file1.txt```
 
+or
+
+```$ make test```
+
 
 if file1.txt does not exist, file1.txt is automatically made by a.exe program
 
