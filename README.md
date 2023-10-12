@@ -34,3 +34,17 @@ or
 
 
 if file1.txt does not exist, file1.txt is automatically made by a.exe program
+
+
+### Compiler
+In Makefile, $(GC) is mapping g++, but actually, my compiler is clang
+
+```
+oop_prob2 git:(main) ✗ g++ --version
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin23.0.0
+Thread model: posix
+```
+
+### OS
+MacOS Sonoma version 14.0 | arm64 (M1 chip)
